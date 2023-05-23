@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+    background-color: white;
+    color: black;
+}
+
+h1 {
+    padding: 20px;
+    margin: 20px;
+    margin-bottom: 0px;
+    color: blue;
+}
+
+textarea {
+    margin-left: 40px;
+    margin-bottom: 20px;
+    width: 500px;
+    height: 200px;
+}
+
+span {
+    color: red;
+    margin-bottom: 0px;
+    margin-left: 40px;
+    font-size: large;
+    font-weight: bold;
+}
+
+div {
+    font-size: medium;
+    
+}
+
+li {
+    padding: 4px;
+    list-style-type: none;
+}
