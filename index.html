@@ -17,6 +17,8 @@
                     <li><input type="checkbox">VERIFICAR TODOS OS DADOS RECEBIDOS DO REPRESENTANTE</li>
                     <li><input type="checkbox">MONTAR CONTRATO</li>
                     <li><input type="checkbox">CORRIGIR VISUALMENTE O CONTRATO</li>
+                    <li><input type="checkbox">ENDEREÇO DE FATURAMENTO NO MESMO ESTADO DO ENDEREÇO DE ENTREGA</li>
+
                 </ul>
         </div>
 
@@ -70,28 +72,30 @@
         <div>
             <span>SUBIR CONTRATO ASSINADO</span>
             <ul>
-                <li><input type="checkbox">REVISAR DADOS DO CLIENTE (SITE RECEITA CPF/CNPJ, END. DE FATURAMENTO = END. DE ENTREGA)</li>
+                <li><input type="checkbox">ABRIR CONTRATO E PUXAR INFORMAÇÕES DE OPERAÇÃO, CNPJ, ENDEREÇO, EMAIL, FORMA DE PAGAMENTO E PRODUTOS COM ACESSÓRIOS</li>
                 <li><input type="checkbox">VALIDAR ASSINATURA DO CLIENTE (SELFIE COM DOCUMENTO)</li>
                 <li><input type="checkbox">ABRIR OPORTUNIDADE, CASO NÃO TENHA</li>
+                <li><input type="checkbox">CONFERIR PROJETO, SE CORRESPONDE AO PRODUTO CERTO</li>
                 <li><input type="checkbox">DATA DE FECHAMENTO (DIA QUE O CLIENTE ASSINOU)</li>
                 <li><input type="checkbox">DATA ESTIMATADA PARA FATURAMENTO (30 DIAS DEPOIS DO FECHAMENTO)</li>
-                <li><input type="checkbox">FASE = FECHADO GANHO</li>
+                <li><input type="checkbox">FASE: FECHADO GANHO</li>
+                <li><input type="checkbox">TIPO DE NEGÓCIO: VENDA (EM ATÉ 1+10X) OU LOCAÇÃO (CESSÃO DE USO 1+11 ATÉ 1+59)</li>
+                <li><input type="checkbox">VERTICAL: VETERINÁRIA</li>
+                <li><input type="checkbox">DESCRIÇÃO: NOMECLATURA CONFORME TABELA PADRÃO</li>
                 <li><input type="checkbox">CORRIGIR NOME DA OPORTUNIDADE COM NOME TÉCNICO DO PRODUTO</li>
-                <li><input type="checkbox">CONFERIR PROJETO, SE CORRESPONDE AO PRODUTO CERTO</li>
-                <li><input type="checkbox">TIPO DE NEGÓCIO, VENDA (EM ATÉ 1+10X) OU LOCAÇÃO (CESSÃO DE USO 1+11 ATÉ 1+59)</li>
-                <li><input type="checkbox">VERTICAL = VETERINÁRIA</li>
-                <li><input type="checkbox">DESCRIÇÃO = NOMECLATURA CONFORME TABELA PADRÃO</li>
                 <li><input type="checkbox">CONFIRMAR VALOR DO PRODUTO, SE MENOR QUE TABELA DE PREÇOS, VERIFICAR AUTORIZAÇÃO, OU COTAÇÃO COM DESCONTO APROVADO</li>
-                <li><input type="checkbox">VALOR = PREENCHER ADICIONANDO O PRODUTO NA OP</li>
-                <li><input type="checkbox">VALOR EM DOLLAR = PREENCHER QUANDO FOR ULTRASSOM (SALESFORCE GE)</li>
-                <li><input type="checkbox">CONDIÇÕES DE PAGAMENTO</li>
-                <li><input type="checkbox">REPRESENTANTE (VERIFICAR SE NÃO É INSIDE SALES)</li>
-                <li><input type="checkbox">MODALIDADE = DISTRIBUIDORA</li>
-                <li><input type="checkbox">STATUS PROPOSTA = ASSINADA/ENVIADA</li>
+                <li><input type="checkbox">VALOR: PREENCHER ADICIONANDO O PRODUTO NA OP (CONFERIR TABELA, VERIFICAR COTAÇÃO, EMAIL)</li>
+                <li><input type="checkbox">VALOR EM DOLLAR: PREENCHER QUANDO FOR ULTRASSOM (SALESFORCE GE)</li>
+                <li><input type="checkbox">CONDIÇÕES DE PAGAMENTO: JÁ ANOTAR PRA USAR NA OPERAÇÃO</li>
+                <li><input type="checkbox">CONFIRMAR VALOR DO PRODUTO, SE MENOR QUE TABELA DE PREÇOS, VERIFICAR AUTORIZAÇÃO, OU COTAÇÃO COM DESCONTO APROVADO</li>
+                <li><input type="checkbox">REPRESENTANTE: VERIFICAR SE NÃO É INSIDE SALES</li>
+                <li><input type="checkbox">MODALIDADE: DISTRIBUIÇÃO</li>
+                <li><input type="checkbox">STATUS PROPOSTA: ASSINADA/ENVIADA</li>
                 <li><input type="checkbox">PRAZO DE ENTREGA: 60 DIAS (RAD E US) 90 DIAS (A.C.)</li>
                 <li><input type="checkbox">BACKOFFICE: COMISSÃO (CONFERIR INSIDE E VERIFICAR PREÇO VENDIDO)</li>
                 <li><input type="checkbox">BACKOFFICE: STATUS BACKOFFICE = CONTRATO RECEBIDO COM ASSINATURA DIGITAL</li>
-                <li><input type="checkbox">BACKOFFICE: DATA DO ENVIO DO CONTRATO</li>
+                <li><input type="checkbox">BACKOFFICE: DATA DE ENVIO DO CONTRATO</li>
+                <li><input type="checkbox">BACKOFFICE: DATA RECEBIMENTO DO CONTRATO</li>
                 <li><input type="checkbox">RADIOLOGIA: GARANTIA (VER TABELA ITENS PADRÃO)</li>
                 <li><input type="checkbox">RADIOLOGIA: FRETE = CIF</li>
             </ul>
@@ -102,15 +106,15 @@
                 <ul>
                     <li><input type="checkbox">SEPARAR INFORMAÇÕES: NOME TÉCNICO DO EQUIPAMENTO, VALOR INDIVIDUAL, CONDIÇÕES DE PAGAMENTO</li>
                     <li><input type="checkbox">CRIAR UMA OPERAÇÃO PARA CADA PRODUTO SENDO VENDIDO</li>
-                    <li><input type="checkbox">VALOR</li>
-                    <li><input type="checkbox">FABRICANTE</li>
+                    <li><input type="checkbox">STATUS GERAL: INICIAR PÓS VENDA OU AGUARDANDO RESERVAR (US)</li>
+                    <li><input type="checkbox">STATUS PENDENTE: PÓS VENDA EM PROCESSO OU AGUARDANDO RESERVAR (US)</li>
+                    <li><input type="checkbox">VALOR DO ITEM</li>
                     <li><input type="checkbox">DESCRIÇÃO DO EQUIPAMENTO (CONFORME TABELA PADRÃO)</li>
-                    <li><input type="checkbox">STATUS GERAL = INICIAR PÓS VENDA</li>
-                    <li><input type="checkbox">STATUS PENDENTE = PÓS VENDA EM PROCESSO</li>
-                    <li><input type="checkbox">PROJEÇÃO DE FATURAMENTO (MESMA DATA DA OP)</li>
+                    <li><input type="checkbox">FABRICANTE</li>
+                    <li><input type="checkbox">PROJEÇÃO DE FATURAMENTO</li>
                     <li><input type="checkbox">COMISSÃO</li>
                     <li><input type="checkbox">CENTRO DE CUSTO (SUPER IMPORTANTE)</li>
-                    <li><input type="checkbox">OBSERVAÇÕES DE FATURAMENTO = CADASTRO MEGA E REQUISIÇÃO BOLETO</li>
+                    <li><input type="checkbox">OBSERVAÇÕES DE FATURAMENTO: CADASTRO MEGA/REQUISIÇÃO BOLETO/ACESSORIOS US</li>
                     <li><input type="checkbox">CONDIÇÃO DE PAGAMENTO</li>
                 </ul>
         </div>
@@ -119,9 +123,9 @@
         <div>
             <span>MEGA</span>
                 <ul>
-                    <li><input type="checkbox">CONSULTAR SE CLIENTE JÁ TEM CADASTRO</li>
-                    <li><input type="checkbox">CASO TENHA, REVISAR OS DADOS</li>
+                    <li><input type="checkbox">TAB: CONSULTAR SE CLIENTE JÁ TEM CADASTRO, SE TIVER REVISAR OS DADOS</li>
                     <li><input type="checkbox">TIPO DE AGENTE</li>
+                    <li><input type="checkbox">PREENCHER PRIMEIRO CNPJ (COM DADOS SINTEGRA)
                     <li><input type="checkbox">CNAE (EM CASO DE CNPJ)</li>
                     <li><input type="checkbox">ESTADO *ATENÇÃO*</li>
                     <li><input type="checkbox">INSCRIÇÃO ESTADUAL (NÃO DEIXAR EM BRANCO, ESCREVER ISENTO)</li>
